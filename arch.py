@@ -163,7 +163,7 @@ print(" 2. Paru")
 spacer()
 
 # AUR Helper
-aur_helper = int(input("--> "))
+aur_helper = int(input(" --> "))
 
 if aur_helper == 1:
     spacer()
