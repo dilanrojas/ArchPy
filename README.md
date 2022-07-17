@@ -11,6 +11,12 @@ Características:
 
 # Ejecuta ArchPy
 
+Instalar python3:
+
+```bash
+sudo pacman -S python3
+```
+
 ```bash
 git clone https://github.com/dilanrojas/archpy.git
 cd archpy/
