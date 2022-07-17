@@ -12,7 +12,7 @@ Características:
 # Ejecuta ArchPy
 
 ```bash
-git clone github.com/dilanrojas/archpy.git
+git clone https://github.com/dilanrojas/archpy.git
 cd archpy/
 python3 arch.py
 ```
