@@ -17,6 +17,8 @@ Instalar python3:
 sudo pacman -S python3
 ```
 
+Clona el repositorio
+
 ```bash
 git clone https://github.com/dilanrojas/archpy.git
 cd archpy/
