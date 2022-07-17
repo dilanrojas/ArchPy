@@ -38,3 +38,5 @@ def keybindings():
     print(" Win + Control + L = Aumentar hacia la derecha")
     print(" Win + Control + J = Aumentar hacia abajo")
     print(" Win + Control + K = Aumentar hacia arriba")
+
+keybindings()
