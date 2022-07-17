@@ -189,8 +189,10 @@ if r2 == 1:
     spacer()
     if aur_helper == 1:
         os.system("yay -S picom-jonaburg-git --noconfirm")
+        done()
     elif aur_helper == 2:
         os.system("paru -S picom-jonaburg-git --noconfirm")
+        done()
 elif r2 == 2:
     skip()
 
