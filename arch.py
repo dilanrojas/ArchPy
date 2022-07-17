@@ -223,6 +223,7 @@ elif r3 == 2:
 clone()
 
 # Cambiar la shell
+spacer()
 print(" ¿Quieres utilizar Fish como Shell?")
 print(" 1. Sí")
 print(" 2. No")
