@@ -108,11 +108,13 @@ def welcome():
 def byebye():
     clean()
     spacer()
-    print(" ¡Has completado la configuración!")
+    print(" ¡Reinicia el equipo para completar la configuración!")
     wait()
     print(" Aquí te dejo una lista con los atajos de teclado")
     spacer()
     keybindings()
+    spacer()
+    print("Puedes consultar esta lista cuando desees ejecutando el archivo 'keybindings.py'")
 
 # Clonando repositorio...
 def clone():
@@ -153,6 +155,8 @@ if r1 == 1:
     os.system("sudo pacman -S --noconfirm " + lista_paquetes_1)
     # Generar carpetas de usuario
     os.system("xdg-user-dirs-update")
+    # Habilita el servicio LightDM
+    os.system("sudo systemctl enable LightDM")
     done()
 elif r1 == 2:
     exiting()
