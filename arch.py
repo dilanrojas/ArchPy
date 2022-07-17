@@ -270,6 +270,7 @@ elif r5 == 2:
     skip()
 
 # Instala tema de NeoVim
+spacer()
 print(" ¿Quieres instalar un tema personalizado de NeoVim?")
 print(" 1. Sí")
 print(" 2. No")
