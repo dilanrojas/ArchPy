@@ -1,6 +1,6 @@
 # ArchPy
 
-Ejecuta este script para configurar fácilmente Arch Linux o derivadas luego de su instalación. Podrás obtener un escritorio completamente usable del gestor de ventana de tipo "Tiling", Qtile, y configurable con esquemas de colores.
+Ejecuta este script para configurar fácilmente Arch Linux y distribuciones derivadas de este, luego de su instalación. Podrás obtener un escritorio completamente usable del gestor de ventana de tipo "Tiling", Qtile, y configurable con esquemas de colores.
 
 Características:
 
