@@ -207,7 +207,9 @@ elif r2 == 2:
 # Lista de fuentes
 lista_fuentes = " nerd-fonts-jetbrains-mono nerd-fonts-ubuntu-mono"
 
-print(" Las siguientes fuentes son necearias: " + lista_fuentes)
+print(" Las siguientes fuentes son necearias:")
+print("" + lista_fuentes)
+spacer()
 print(" 1. Instalar")
 print(" 2. No instalar (No recomendado)")
 spacer()
