@@ -241,6 +241,7 @@ if r4 == 2:
     skip()
 
 # Instala tema de LightDM
+spacer()
 print(" ¿Quieres instalar un tema personalizado de LightDM?")
 print(" 1. Sí")
 print(" 2. No")
