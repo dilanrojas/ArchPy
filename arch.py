@@ -156,7 +156,7 @@ if r1 == 1:
     # Generar carpetas de usuario
     os.system("xdg-user-dirs-update")
     # Habilita el servicio LightDM
-    os.system("sudo systemctl enable LightDM")
+    os.system("sudo systemctl enable lightdm")
     done()
 elif r1 == 2:
     exiting()
