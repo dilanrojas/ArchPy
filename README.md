@@ -7,8 +7,7 @@ Características:
  - Está escrito en Python.
  - Se ejecuta desde la línea de comandos.
  - Puedes modificar los paquetes que deseas instalar.
-
-<a href="https://github.com/itzdilan/dotfiles.git">Resultado final</a>
+ - <a href="https://github.com/itzdilan/dotfiles.git">Resultado final</a>
 
 # Ejecuta ArchPy
 
