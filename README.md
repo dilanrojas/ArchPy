@@ -10,7 +10,7 @@ Características:
 
 Resultado final: github.com/itzdilan/dotfiles.git
 
-# Ejecutando
+# Ejecuta ArchPy
 
 ```bash
 git clone github.com/itzdilan/archpy.git
