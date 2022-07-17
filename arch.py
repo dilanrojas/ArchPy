@@ -167,12 +167,12 @@ aur_helper = int(input(" --> "))
 
 if aur_helper == 1:
     spacer()
-    os.system("sudo pacman -S git base-devel --noconfirm && git clone https://aur.archlinux.org/yay-git.git && cd yay-git/ && makepkg -si --noconfirm")
+    os.system("sudo pacman -S git base-devel --noconfirm && git clone https://aur.archlinux.org/yay-git.git && mv yay-git/PKGBUILD . && makepkg -si --noconfirm")
     done()
 
 elif aur_helper == 2:
     spacer()
-    os.system("sudo pacman -S git base-devel --noconfirm && git clone https://aur.archlinux.org/paru-git.git && cd paru-git/ && makepkg -si --noconfirm")
+    os.system("sudo pacman -S git base-devel --noconfirm && git clone https://aur.archlinux.org/paru-git.git && mv paru-git/PKGBUILD . && makepkg -si --noconfirm")
     done()
 
 # Instala fork de Picom (Compositor de ventanas)
