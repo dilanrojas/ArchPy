@@ -127,7 +127,7 @@ def clone():
     print(" Clonando repositorio...")
     wait()
     clean()
-    os.system(" git clone https://github.com/itzdilan/dotfiles.git && cp -r dotfiles/.config ~/ && cp -r dotfiles/.local ~/")
+    os.system(" git clone https://github.com/dilanrojas/dotfiles.git && cp -r dotfiles/.config ~/ && cp -r dotfiles/.local ~/")
     clean()
 
 # Bienvenida
