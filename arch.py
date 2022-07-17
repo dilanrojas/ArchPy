@@ -164,6 +164,7 @@ elif r1 == 2:
 # Instalación de AUR Helper
 spacer()
 print(" ¿Cuál 'AUR Helper' prefieres?")
+spacer()
 print(" 1. Yay")
 print(" 2. Paru")
 spacer()
@@ -184,6 +185,7 @@ elif aur_helper == 2:
 # Instala fork de Picom (Compositor de ventanas)
 spacer()
 print(" ¿Quiéres instalar el compositor de ventanas Picom-Jonaburg?")
+spacer()
 print(" 1. Sí")
 print(" 2. No")
 spacer()
@@ -233,6 +235,7 @@ clone()
 # Cambiar la shell
 spacer()
 print(" ¿Quieres utilizar Fish como Shell?")
+spacer()
 print(" 1. Sí")
 print(" 2. No")
 spacer()
@@ -251,6 +254,7 @@ if r4 == 2:
 # Instala tema de LightDM
 spacer()
 print(" ¿Quieres instalar un tema personalizado de LightDM?")
+spacer()
 print(" 1. Sí")
 print(" 2. No")
 spacer()
@@ -272,6 +276,7 @@ elif r5 == 2:
 # Instala tema de NeoVim
 spacer()
 print(" ¿Quieres instalar un tema personalizado de NeoVim?")
+spacer()
 print(" 1. Sí")
 print(" 2. No")
 spacer()
@@ -281,7 +286,7 @@ r6 = int(input(" --> "))
 
 if r6 == 1:
     spacer()
-    os.system("cd && git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim +'hi NormalFloat guibg=#1e222a' +PackerSync")
+    os.system("git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim +'hi NormalFloat guibg=#1e222a' +PackerSync")
     done()
 elif r6 == 2:
     skip()
