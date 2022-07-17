@@ -139,6 +139,7 @@ spacer()
 print(" ¿Instalar los siguientes paquetes?")
 spacer()
 print(lista_paquetes_1)
+spacer()
 print(" 1. Sí")
 print(" 2. No")
 spacer()
@@ -161,26 +162,18 @@ print(" 1. Yay")
 print(" 2. Paru")
 spacer()
 
-# Respuesta de paquetes #2
-r2 = int(input("--> "))
+# AUR Helper
+aur_helper = int(input("--> "))
 
-if r2 == 1:
+if aur_helper == 1:
     spacer()
     os.system("sudo pacman -S git base-devel --noconfirm && git clone https://aur.archlinux.org/yay-git.git && cd yay-git/ && makepkg -si")
     done()
 
-elif r2 == 2:
+elif aur_helper == 2:
     spacer()
     os.system("sudo pacman -S git base-devel --noconfirm && git clone https://aur.archlinux.org/paru-git.git && cd paru-git/ && makepkg -si")
     done()
-print(" ¿Cuál AUR Helper has elegido?")
-print(" 1. Yay")
-print(" 2. Paru")
-spacer()
-
-# AUR Helper
-aur_helper = int(input("--> "))
-clean()
 
 # Instala fork de Picom (Compositor de ventanas)
 spacer()
@@ -189,16 +182,16 @@ print(" 1. Sí")
 print(" 2. No")
 spacer()
 
-# Respuesta de paquetes #3
-r3 = int(input(" --> "))
+# Respuesta de paquetes #2
+r2 = int(input(" --> "))
 
-if r3 == 1:
+if r2 == 1:
     spacer()
     if aur_helper == 1:
         os.system("yay -S picom-jonaburg-git --noconfirm")
     elif aur_helper == 2:
         os.system("paru -S picom-jonaburg-git --noconfirm")
-elif r3 == 2:
+elif r2 == 2:
     skip()
 
 # Instalación de las fuentes necesarias
@@ -211,17 +204,17 @@ print(" 1. Instalar")
 print(" 2. No instalar (No recomendado)")
 spacer()
 
-# Respuesta de paquetes #4
-r4 = int(input(" --> "))
+# Respuesta de paquetes #3
+r3 = int(input(" --> "))
 
-if r4 == 1:
+if r3 == 1:
     spacer()
     if aur_helper == 1:
         os.system("yay -S nerd-fonts-jetbrains-mono nerd-fonts-ubuntu-mono --noconfirm")
     elif aur_helper == 2:
         os.system("paru -S nerd-fonts-jetbrains-mono nerd-fonts-ubuntu-mono --noconfirm")
     done()
-elif r4 == 2:
+elif r3 == 2:
     skip()
 
 # Clonar mi repositorio
@@ -233,15 +226,15 @@ print(" 1. Sí")
 print(" 2. No")
 spacer()
 
-# Repuesta de paquetes #5
-r5 = int(input(" --> "))
+# Repuesta de paquetes #4
+r4 = int(input(" --> "))
 
-if r5 == 1:
+if r4 == 1:
     spacer()
     os.system("sudo usermod --shell /usr/bin/fish $USER")
     os.system("sudo usermod --shell /usr/bin/fish root")
     done()
-if r5 == 2:
+if r4 == 2:
     skip()
 
 # Instala tema de LightDM
@@ -250,10 +243,10 @@ print(" 1. Sí")
 print(" 2. No")
 spacer()
 
-# Respuseta de paquetes #6
-r6 = int(input(" --> "))
+# Respuseta de paquetes #5
+r5 = int(input(" --> "))
 
-if r6 == 1:
+if r5 == 1:
     spacer()
     os.system("sudo pacman -S lightdm-webkit2-greeter --noconfirm")
     if aur_helper == 1:
@@ -261,7 +254,7 @@ if r6 == 1:
     elif aur_helper == 2:
         os.system("paru -S lightdm-webkit-theme-aether --noconfirm")
     done()
-elif r6 == 2:
+elif r5 == 2:
     skip()
 
 # Instala tema de NeoVim
@@ -270,14 +263,14 @@ print(" 1. Sí")
 print(" 2. No")
 spacer()
 
-# Respuesta de paquetes #7
-r7 = int(input(" --> "))
+# Respuesta de paquetes #6
+r6 = int(input(" --> "))
 
-if r7 == 1:
+if r6 == 1:
     spacer()
     os.system("cd && git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim +'hi NormalFloat guibg=#1e222a' +PackerSync")
     done()
-elif r7 == 2:
+elif r6 == 2:
     skip()
 
 # Despedida
