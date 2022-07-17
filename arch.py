@@ -279,3 +279,6 @@ if r7 == 1:
     done()
 elif r7 == 2:
     skip()
+
+# Despedida
+byebye()
