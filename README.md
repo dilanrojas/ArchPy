@@ -8,7 +8,7 @@ Características:
  - Se ejecuta desde la línea de comandos.
  - Puedes modificar los paquetes que deseas instalar.
 
-Resultado final: github.com/itzdilan/dotfiles.git
+<a href="github.com/itzdilan/dotfiles.git">Resultado final</a>
 
 # Ejecuta ArchPy
 
