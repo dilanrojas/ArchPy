@@ -114,7 +114,7 @@ def byebye():
     spacer()
     keybindings()
     spacer()
-    print("Puedes consultar esta lista cuando desees ejecutando el archivo 'keybindings.py'")
+    print(" Puedes consultar esta lista cuando desees ejecutando el archivo 'keybindings.py'")
 
 # Clonando repositorio...
 def clone():
@@ -138,7 +138,7 @@ def clone():
 welcome()
 
 # Lista de paquetes
-lista_paquetes_1 = " xorg xorg-server lightdm lightdm-gtk-greeter qtile alacritty fish starship pcmanfm rofi nitrogen scrot redshift file-roller gvfs glib2 gvfs-mtp udiskie network-manager-applet cbatticon pulseaudio pavucontrol pamixer alsa-utils brightnessctl gedit eog arandr xdg-user-dirs ntfs-3g lxappearance vlc dunst nano neovim lsd bat lxsession xscreensaver volumeicon gnome-themes-extra gtk-engine-murrine python-colorama"
+lista_paquetes_1 = " xorg xorg-server lightdm lightdm-gtk-greeter qtile alacritty fish starship pcmanfm rofi nitrogen scrot redshift file-roller gvfs glib2 gvfs-mtp udiskie network-manager-applet cbatticon pulseaudio pavucontrol pamixer alsa-utils brightnessctl gedit eog arandr xdg-user-dirs ntfs-3g lxappearance vlc dunst nano neovim lsd bat lxsession xscreensaver ttf-ubuntu-font-family ttf-liberation volumeicon gnome-themes-extra gtk-engine-murrine python-colorama"
 spacer()
 print(" ¿Instalar los siguientes paquetes?")
 spacer()
