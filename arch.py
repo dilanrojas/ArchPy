@@ -132,7 +132,7 @@ def clone():
     print(" Clonando repositorio...")
     wait()
     clean()
-    os.system("git clone https://github.com/dilanrojas/dotfiles.git && cp -r dotfiles/* && chmod +x ~/.config/qtile/autostart.sh")
+    os.system("git clone https://github.com/dilanrojas/dotfiles.git && cp -r dotfiles/.config ~/ && cp -r dotfiles/.local ~/ && cp dotfiles/.xscreensaver ~/ && chmod +x ~/.config/qtile/autostart.sh")
     clean()
 
 # Bienvenida
