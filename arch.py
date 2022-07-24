@@ -88,6 +88,7 @@ def clone():
     wait()
     clean()
     os.system(" git clone https://github.com/dilanrojas/dotfiles.git && cp -r dotfiles/.config ~/ && cp -r dotfiles/.local ~/ && chmod +x ~/.config/qtile/autostart.sh")
+    os.system("sudo cp -r ~/.config/nvim /root/ && sudo cp -r ~/.config/starship.toml /root && sudo cp -r ~/.config/fish /root/")
     clean()
 
 # Bienvenida
